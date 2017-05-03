@@ -7,17 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F8293E11EB902CB0026CD7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F8293DF1EB902CB0026CD7B /* InfoPlist.strings */; };
+		3F8BB8081EBA3C8000A93349 /* HKPermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8BB8071EBA3C8000A93349 /* HKPermissionsViewController.swift */; };
+		3F8BB8141EBA4BD300A93349 /* AppDelegate.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0F1AC1E8C258400F14CBE /* AppDelegate.swift */; };
+		3F8BB8151EBA4BD700A93349 /* HKPermissionsViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BB8071EBA3C8000A93349 /* HKPermissionsViewController.swift */; };
+		3F8BB8161EBA4BDA00A93349 /* HKHealthStoreExtension.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3F95CA931EB8F00800E13CDE /* HKHealthStoreExtension.swift */; };
+		3F8BB8171EBA4BDD00A93349 /* FoodPickerViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3F95CA871EB7AF4300E13CDE /* FoodPickerViewController.swift */; };
+		3F8BB8181EBA4BE000A93349 /* ProfileViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3F95CA8D1EB7B41700E13CDE /* ProfileViewController.swift */; };
+		3F8BB8191EBA4BE300A93349 /* FoodItem.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3F95CA891EB7AF8B00E13CDE /* FoodItem.swift */; };
+		3F8BB81A1EBA4BE600A93349 /* JournalViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3F95CA851EB7AEE500E13CDE /* JournalViewController.swift */; };
+		3F8BB81B1EBA4BEA00A93349 /* EnergyViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3F95CA8B1EB7B02300E13CDE /* EnergyViewController.swift */; };
+		3F8BB81D1EBA4BEF00A93349 /* HealthyLiving in Resources */ = {isa = PBXBuildFile; fileRef = 3F8293E21EB9046C0026CD7B /* HealthyLiving */; };
+		3F8BB8211EBA516600A93349 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8BB8201EBA516600A93349 /* HealthKit.framework */; };
+		3F95CA861EB7AEE500E13CDE /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95CA851EB7AEE500E13CDE /* JournalViewController.swift */; };
+		3F95CA881EB7AF4300E13CDE /* FoodPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95CA871EB7AF4300E13CDE /* FoodPickerViewController.swift */; };
+		3F95CA8A1EB7AF8B00E13CDE /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95CA891EB7AF8B00E13CDE /* FoodItem.swift */; };
+		3F95CA8C1EB7B02300E13CDE /* EnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95CA8B1EB7B02300E13CDE /* EnergyViewController.swift */; };
+		3F95CA8E1EB7B41700E13CDE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95CA8D1EB7B41700E13CDE /* ProfileViewController.swift */; };
+		3F95CA921EB8EF8900E13CDE /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = 3F95CA911EB8EF8900E13CDE /* Headers */; };
+		3F95CA941EB8F00800E13CDE /* HKHealthStoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95CA931EB8F00800E13CDE /* HKHealthStoreExtension.swift */; };
 		3FA0F1AD1E8C258400F14CBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0F1AC1E8C258400F14CBE /* AppDelegate.swift */; };
-		3FA0F1AF1E8C258400F14CBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0F1AE1E8C258400F14CBE /* ViewController.swift */; };
 		3FA0F1B21E8C258400F14CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0F1B01E8C258400F14CBE /* Main.storyboard */; };
 		3FA0F1B41E8C258400F14CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0F1B31E8C258400F14CBE /* Assets.xcassets */; };
 		3FA0F1B71E8C258400F14CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0F1B51E8C258400F14CBE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F8293E01EB902CB0026CD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "../../../../Downloads/HealthKit-Swift-master/HealthKit~Swift/Base.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3F8293E21EB9046C0026CD7B /* HealthyLiving */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = HealthyLiving; path = "../../../../Downloads/HealthKit-Swift-master/HealthKit~Swift/HealthyLiving"; sourceTree = "<group>"; };
+		3F8BB8071EBA3C8000A93349 /* HKPermissionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKPermissionsViewController.swift; sourceTree = "<group>"; };
+		3F8BB81E1EBA516600A93349 /* FinalProjApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinalProjApp.entitlements; sourceTree = "<group>"; };
+		3F8BB8201EBA516600A93349 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		3F95CA851EB7AEE500E13CDE /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		3F95CA871EB7AF4300E13CDE /* FoodPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodPickerViewController.swift; sourceTree = "<group>"; };
+		3F95CA891EB7AF8B00E13CDE /* FoodItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		3F95CA8B1EB7B02300E13CDE /* EnergyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyViewController.swift; sourceTree = "<group>"; };
+		3F95CA8D1EB7B41700E13CDE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
+		3F95CA911EB8EF8900E13CDE /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = System/Library/Frameworks/HealthKit.framework/Headers; sourceTree = SDKROOT; };
+		3F95CA931EB8F00800E13CDE /* HKHealthStoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HKHealthStoreExtension.swift; path = ../HKHealthStoreExtension.swift; sourceTree = "<group>"; };
 		3FA0F1A91E8C258400F14CBE /* FinalProjApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA0F1AC1E8C258400F14CBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FA0F1AE1E8C258400F14CBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FA0F1B11E8C258400F14CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA0F1B31E8C258400F14CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA0F1B61E8C258400F14CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,17 +58,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8BB8211EBA516600A93349 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F8BB81F1EBA516600A93349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F8BB8201EBA516600A93349 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3FA0F1A01E8C258400F14CBE = {
 			isa = PBXGroup;
 			children = (
 				3FA0F1AB1E8C258400F14CBE /* FinalProjApp */,
 				3FA0F1AA1E8C258400F14CBE /* Products */,
+				3F8BB81F1EBA516600A93349 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +93,22 @@
 		3FA0F1AB1E8C258400F14CBE /* FinalProjApp */ = {
 			isa = PBXGroup;
 			children = (
+				3F8BB81E1EBA516600A93349 /* FinalProjApp.entitlements */,
+				3F95CA911EB8EF8900E13CDE /* Headers */,
 				3FA0F1AC1E8C258400F14CBE /* AppDelegate.swift */,
-				3FA0F1AE1E8C258400F14CBE /* ViewController.swift */,
+				3F8BB8071EBA3C8000A93349 /* HKPermissionsViewController.swift */,
+				3F8293E21EB9046C0026CD7B /* HealthyLiving */,
+				3F95CA931EB8F00800E13CDE /* HKHealthStoreExtension.swift */,
+				3F95CA8B1EB7B02300E13CDE /* EnergyViewController.swift */,
+				3F95CA871EB7AF4300E13CDE /* FoodPickerViewController.swift */,
+				3F95CA8D1EB7B41700E13CDE /* ProfileViewController.swift */,
+				3F95CA851EB7AEE500E13CDE /* JournalViewController.swift */,
+				3F95CA891EB7AF8B00E13CDE /* FoodItem.swift */,
 				3FA0F1B01E8C258400F14CBE /* Main.storyboard */,
 				3FA0F1B31E8C258400F14CBE /* Assets.xcassets */,
 				3FA0F1B51E8C258400F14CBE /* LaunchScreen.storyboard */,
 				3FA0F1B81E8C258400F14CBE /* Info.plist */,
+				3F8293DF1EB902CB0026CD7B /* InfoPlist.strings */,
 			);
 			path = FinalProjApp;
 			sourceTree = "<group>";
@@ -96,7 +145,13 @@
 				TargetAttributes = {
 					3FA0F1A81E8C258400F14CBE = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E9Q8REV272;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,9 +178,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8BB81D1EBA4BEF00A93349 /* HealthyLiving in Resources */,
+				3F8BB81B1EBA4BEA00A93349 /* EnergyViewController.swift in Resources */,
+				3F8BB81A1EBA4BE600A93349 /* JournalViewController.swift in Resources */,
+				3F8BB8191EBA4BE300A93349 /* FoodItem.swift in Resources */,
+				3F8BB8181EBA4BE000A93349 /* ProfileViewController.swift in Resources */,
+				3F8BB8171EBA4BDD00A93349 /* FoodPickerViewController.swift in Resources */,
+				3F8BB8161EBA4BDA00A93349 /* HKHealthStoreExtension.swift in Resources */,
+				3F8BB8151EBA4BD700A93349 /* HKPermissionsViewController.swift in Resources */,
+				3F8BB8141EBA4BD300A93349 /* AppDelegate.swift in Resources */,
 				3FA0F1B71E8C258400F14CBE /* LaunchScreen.storyboard in Resources */,
 				3FA0F1B41E8C258400F14CBE /* Assets.xcassets in Resources */,
 				3FA0F1B21E8C258400F14CBE /* Main.storyboard in Resources */,
+				3F95CA921EB8EF8900E13CDE /* Headers in Resources */,
+				3F8293E11EB902CB0026CD7B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,14 +202,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA0F1AF1E8C258400F14CBE /* ViewController.swift in Sources */,
+				3F95CA941EB8F00800E13CDE /* HKHealthStoreExtension.swift in Sources */,
+				3F95CA8E1EB7B41700E13CDE /* ProfileViewController.swift in Sources */,
+				3F95CA8A1EB7AF8B00E13CDE /* FoodItem.swift in Sources */,
 				3FA0F1AD1E8C258400F14CBE /* AppDelegate.swift in Sources */,
+				3F95CA881EB7AF4300E13CDE /* FoodPickerViewController.swift in Sources */,
+				3F95CA8C1EB7B02300E13CDE /* EnergyViewController.swift in Sources */,
+				3F8BB8081EBA3C8000A93349 /* HKPermissionsViewController.swift in Sources */,
+				3F95CA861EB7AEE500E13CDE /* JournalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3F8293DF1EB902CB0026CD7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8293E01EB902CB0026CD7B /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		3FA0F1B01E8C258400F14CBE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -258,10 +338,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FinalProjApp/FinalProjApp.entitlements;
+				DEVELOPMENT_TEAM = E9Q8REV272;
 				INFOPLIST_FILE = FinalProjApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.shp.FinalProjApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = Manually;
+				PROVISIONING_PROFILE_SPECIFIER = Manually;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,10 +354,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FinalProjApp/FinalProjApp.entitlements;
+				DEVELOPMENT_TEAM = E9Q8REV272;
 				INFOPLIST_FILE = FinalProjApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.shp.FinalProjApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = Manually;
+				PROVISIONING_PROFILE_SPECIFIER = Manually;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +385,7 @@
 				3FA0F1BD1E8C258400F14CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
